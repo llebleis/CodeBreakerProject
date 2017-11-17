@@ -88,11 +88,11 @@ function checkResult(input) {
 
 function showAnswer(win) {
     let code = document.getElementById('code');
-    code.value = answer.value;
+    code.innerHTML = '<strong>'+answer.value+'</strong>';
     if(win) {
-        code.className += "success";
+        code.className += " success";
     } else {
-        code.className += "failure";
+        code.className += " failure";
     }
 }
 
