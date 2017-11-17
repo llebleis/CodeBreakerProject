@@ -5,7 +5,6 @@ let user_guess      = document.getElementById('user-guess');
 let ok_char         = 0;
 
 function guess() {
-    let input = document.getElementById('user-guess');
     ok_char = 0;
     //add functionality to guess function here
     if(answer.value == '' || attempt.value == '') {
